@@ -8,5 +8,15 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@hono/zod-validator": "^0.1.11",
+    "date-fns": "^3.3.1",
+    "dotenv": "^16.4.1"
+  },
+  "workspaces": [
+    "packages/client",
+    "packages/server",
+    "packages/common"
+  ]
 }
